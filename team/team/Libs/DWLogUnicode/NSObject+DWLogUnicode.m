@@ -42,8 +42,6 @@
 
 @implementation NSArray (DWLogUnicode)
 
-#ifdef DEBUG
-
 + (void)load {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
@@ -64,15 +62,11 @@
 - (NSString *)_logUicode_descriptionWithLocale:(id)locale indent:(NSUInteger)level {
     return [NSObject logUicode_stringByReplaceUnicode:[self _logUicode_descriptionWithLocale:locale indent:level]];
 }
-
-#endif
 
 @end
 
 @implementation NSDictionary (DWLogUnicode)
 
-#ifdef DEBUG
-
 + (void)load {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
@@ -93,15 +87,11 @@
 - (NSString *)_logUicode_descriptionWithLocale:(id)locale indent:(NSUInteger)level {
     return [NSObject logUicode_stringByReplaceUnicode:[self _logUicode_descriptionWithLocale:locale indent:level]];
 }
-
-#endif
 
 @end
 
 @implementation NSSet (DWLogUnicode)
 
-#ifdef DEBUG
-
 + (void)load {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
@@ -122,7 +112,5 @@
 - (NSString *)_logUicode_descriptionWithLocale:(id)locale indent:(NSUInteger)level {
     return [NSObject logUicode_stringByReplaceUnicode:[self _logUicode_descriptionWithLocale:locale indent:level]];
 }
-
-#endif
 
 @end

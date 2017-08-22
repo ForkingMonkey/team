@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ 支持在debug状态下
+ */
+
 @interface NSObject (DWLogUnicode)
 
 + (NSString *)logUicode_stringByReplaceUnicode:(NSString *)string;

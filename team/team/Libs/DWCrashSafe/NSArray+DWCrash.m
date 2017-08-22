@@ -8,6 +8,7 @@
 
 #import "NSArray+DWCrash.h"
 #import "NSObject+DWCrash.h"
+#import <UIKit/UIKit.h>
 
 @implementation NSArray (DWCrash)
 

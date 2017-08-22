@@ -11,7 +11,7 @@
 		742706E21F4B342B00C3B420 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 742706E11F4B342B00C3B420 /* Assets.xcassets */; };
 		742706E51F4B342B00C3B420 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 742706E31F4B342B00C3B420 /* LaunchScreen.storyboard */; };
 		742706F21F4B369E00C3B420 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 742706EE1F4B369E00C3B420 /* AppDelegate.m */; };
-		742707401F4B37D000C3B420 /* NSArray+DWCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 742706FB1F4B37D000C3B420 /* NSArray+DWCrash.m */; };
+		742707401F4B37D000C3B420 /* NSArray+DWCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 742706FB1F4B37D000C3B420 /* NSArray+DWCrash.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		742707411F4B37D000C3B420 /* NSDictionary+DWCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 742706FD1F4B37D000C3B420 /* NSDictionary+DWCrash.m */; };
 		742707421F4B37D000C3B420 /* NSNull+DWCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 742706FF1F4B37D000C3B420 /* NSNull+DWCrash.m */; };
 		742707431F4B37D000C3B420 /* NSObject+DWCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 742707011F4B37D000C3B420 /* NSObject+DWCrash.m */; };
@@ -572,6 +572,7 @@
 				742706EB1F4B342B00C3B420 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
