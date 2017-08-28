@@ -1,0 +1,6 @@
+framework module DWUtilKit {
+  umbrella header "DWUtilKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

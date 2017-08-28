@@ -1,0 +1,6 @@
+framework module DWLogUnicode {
+  umbrella header "DWLogUnicode-umbrella.h"
+
+  export *
+  module * { export * }
+}

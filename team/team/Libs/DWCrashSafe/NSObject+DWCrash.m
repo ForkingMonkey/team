@@ -33,5 +33,4 @@
     return [object_getClass((id)self) dwcrash_swizzleInstanceMethod:originalSelector withMethod:swizzledSelector];
 }
 
-
 @end
